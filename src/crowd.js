@@ -40,7 +40,7 @@ function App() {
           ...params,
       },
       from: addresses[0],
-      to: "IPDSNTIGVC57MCASJXUMZLECTT73SWLDBQSEIQVAPJKSTEXLVHN4KUZHQM", 
+      to: "EGUSS7HHM3ODVPW3Z2L55WPCZCR4TWSN2VVAKYPZKYEUER5BXM5N6YNH7I", 
       amount: 1,
       note: undefined
   });
@@ -65,7 +65,7 @@ function App() {
             ...params,
         },
         from: addresses[0],
-        to: "JFOFUUXVWCA5YAFIFSU26QNLDCS2SNJ62JUJDUFPNPFS5UX7OGFZJIB6NU", 
+        to: "ZAAHQ7DV7745I5WXAQPXL4GI4ASAV3KWSWM2IJF3UBWJLEDBDISXY2MCT4", 
         amount: 1
     });
     
@@ -74,7 +74,7 @@ function App() {
             ...params,
         },
         from: addresses[0],
-        to: "IPDSNTIGVC57MCASJXUMZLECTT73SWLDBQSEIQVAPJKSTEXLVHN4KUZHQM", 
+        to: "EGUSS7HHM3ODVPW3Z2L55WPCZCR4TWSN2VVAKYPZKYEUER5BXM5N6YNH7I", 
         amount: 1
     });
     
@@ -437,7 +437,7 @@ const unstake = () => {
 //purestake api used
 let algodServer = "https://testnet-algorand.api.purestake.io/ps2";
 let algodToken = {
-    'X-API-Key': '5QofGfLJKu1VEnwtNIcz97q4AO4zNSCf7otVJKV8'
+    'X-API-Key': '9oXsQDRlZ97z9mTNNd7JFaVMwhCaBlID2SXUOJWl'
    };
 
 let algodPort = "";
